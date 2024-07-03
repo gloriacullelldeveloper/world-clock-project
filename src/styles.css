@@ -1,5 +1,5 @@
 body {
-   background-color: #2F4F4F;
+   background-color: #1B4D3E;
 }
 
 .container {
@@ -70,10 +70,14 @@ h2 {
     line-height: 36px;
 }
 
-footer {
+.footer-container {
 
+    background-color: #A9BA9D;
+    display: block;
+    margin: 0 auto;
     text-align: center;
-    color: white;
-    margin: 30px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
 
 }
