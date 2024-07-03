@@ -6,4 +6,17 @@ h1 {
 footer {
 
     text-align: center;
+    margin: 30px;
+}
+
+select {
+   
+   display: block;
+   margin: 0 auto;
+   font-size: 20px;
+}
+
+.city {
+
+    text-align: center;
 }
