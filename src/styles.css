@@ -16,7 +16,12 @@ body {
 h1 {
 
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "GRAD" 0;
+        
     font-size: 40px;
 }
 
@@ -24,7 +29,10 @@ select {
    
    display: block;
    font-size: 20px;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-family: "Roboto Serif", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
    width: 100%;
    padding: 5px;
    border-radius: 5px;
@@ -38,6 +46,7 @@ select {
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
     margin: 10px;
     padding: 10px 20px;
+    
    
 }
 
@@ -50,6 +59,7 @@ h2 {
 
     margin: 0;
 }
+
 
 .date {
 
@@ -80,4 +90,12 @@ h2 {
     padding: 10px;
     border-radius: 10px;
 
+}
+
+footer {
+
+   font-family: "Chivo Mono", monospace;
+   font-size: 12px;
+
+    
 }
